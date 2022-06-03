@@ -1,0 +1,87 @@
+
+
+
+/* body{
+    width: 100vw;
+    height: 100vh;
+} */
+
+
+/* .headerBg{
+    width: 100%;
+    height: 300px;
+    background-image:url(Bikeshop_projet/bike-background.jpg) ;
+    background-position: center center;
+    background-size: cover;
+} */
+
+#link{
+    background-color: rgb(214, 211, 211);
+}
+a{
+    text-decoration: none;
+}
+
+
+
+
+.indi
+{
+    width: 100px;
+    height: 100px;
+}
+
+.indi .trait{
+    width: 5px;
+    height: 250px;
+    transform: rotateZ(30deg);
+    border-radius: 30px;
+    background-color: black;
+}
+
+.indi .text{
+    transform: translateX(40px  );
+    transform: rotateY(inherit);
+    font-weight: 500;
+    font-size: 2rem;
+}
+
+.Droue{
+        top: 70px;
+    right: -50px;
+}
+
+.selle{ 
+        transform: rotatey(180deg);
+        top: -123px;
+        right: 700px;
+}
+
+.card{
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border: none;
+    transition-duration: 0.5s ;
+    cursor: pointer;
+}
+.card:hover{
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 0px 50px;
+    
+}
+.card:hover .detail{
+    display: flex;
+    opacity: 100% !important;
+}
+.detail{
+    display: none;
+    transition-duration: 0.5s ;
+    opacity: 0% !important;
+}
+svg{
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 0px 15px;
+
+}
+/* <div class="indi">
+    <span class="rond"></span>
+    <span class = "trait"></span>
+    <span class="text"> D0 </span>
+</div> */
