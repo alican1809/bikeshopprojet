@@ -22,35 +22,6 @@ a{
     text-decoration: none;
 }
 
-
-
-
-.indi
-{
-    width: 100px;
-    height: 100px;
-}
-
-.indi .trait{
-    width: 5px;
-    height: 250px;
-    transform: rotateZ(30deg);
-    border-radius: 30px;
-    background-color: black;
-}
-
-.indi .text{
-    transform: translateX(40px  );
-    transform: rotateY(inherit);
-    font-weight: 500;
-    font-size: 2rem;
-}
-
-.Droue{
-        top: 70px;
-    right: -50px;
-}
-
 .selle{ 
         transform: rotatey(180deg);
         top: -123px;
@@ -61,7 +32,7 @@ a{
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
     border: none;
     transition-duration: 0.5s ;
-    cursor: pointer;
+
 }
 .card:hover{
     box-shadow: rgba(0, 0, 0, 0.35) 0px 0px 50px;
@@ -76,9 +47,13 @@ a{
     transition-duration: 0.5s ;
     opacity: 0% !important;
 }
-svg{
+svg , iframe{
+    border-radius: 10px;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 0px 15px;
 
+}
+.index1>img{
+    transform: rotatey(180deg);
 }
 /* <div class="indi">
     <span class="rond"></span>
